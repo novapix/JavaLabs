@@ -14,7 +14,7 @@ public class DivDemo {
 			System.out.print("Enter second integer: ");
 			int b = sc.nextInt();
 
-			float result = (float) a / b;
+			float result =  a / b;
 			System.out.println("Result: " + result);
 
 		} catch (ArithmeticException e) {

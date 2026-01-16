@@ -31,9 +31,7 @@ public class SerializeStudent {
 
 			out.writeObject(student);
 
-			System.out.println("\nSuccess! Student object has been serialized to 'student.dat'");
-			System.out.println("Object state: " + student.toString());
-
+			System.out.println("Success, Student object has been serialized to 'student.dat'");
 		} catch (IOException e) {
 			System.err.println("An IOException occurred during serialization.");
 			e.printStackTrace();

@@ -21,9 +21,6 @@ public class DeserializeStudent {
 			System.out.println("ID:    " + student.getId());
 			System.out.println("Name:  " + student.getName());
 			System.out.println("Marks: " + student.getMarks());
-
-			System.out.println("\nObject Dump: " + student.toString());
-
 		} catch (IOException e) {
 			System.err.println("Error: An I/O error occurred (File not found or unreadable).");
 			e.printStackTrace();
